@@ -39,7 +39,7 @@ const AboutPage = () => {
           <div className="w-full sm:w-1/2 lg:w-1/3">
             <h2 className="text-2xl font-semibold text-blue-500 mb-4">Why Choose Us?</h2>
             <div className="text-lg text-gray-700">
-              Marketaven stands out for its accuracy, reliability, and customer-focused approach. Our team of experienced traders and analysts work tirelessly to provide signals that maximize profitability while minimizing risk. Whether you're a beginner or an experienced trader, Marketaven has the tools and resources to elevate your trading journey.
+              Marketaven stands out for its accuracy, reliability, and customer-focused approach. Our team of experienced traders and analysts work tirelessly to provide signals that maximize profitability while minimizing risk. Whether you&apos;re a beginner or an experienced trader, Marketaven has the tools and resources to elevate your trading journey.
             </div>
           </div>
 

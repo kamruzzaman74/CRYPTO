@@ -1,10 +1,7 @@
-"use client"
+"use client";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-
-
 import { Line } from "react-chartjs-2";
-
 import {
   Chart as ChartJS,
   LineElement,
@@ -12,8 +9,6 @@ import {
   LinearScale,
   PointElement,
 } from "chart.js";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaTelegram } from "react-icons/fa";
-
 
 ChartJS.register(LineElement, CategoryScale, LinearScale, PointElement);
 
@@ -21,23 +16,6 @@ const CryptoSignalsPro = () => {
   const [cryptoData, setCryptoData] = useState<Record<string, { usd: number }> | null>(null);
   const [priceHistory, setPriceHistory] = useState<number[]>([]);
   const [labels, setLabels] = useState<string[]>([]);
-  const [reviews, setReviews] = useState([
-    {
-      name: "John Doe",
-      feedback: "Amazing platform! The signals are spot-on and helped me maximize my profits.",
-      rating: 5,
-    },
-    {
-      name: "Jane Smith",
-      feedback: "The AI insights are a game-changer. Highly recommend Crypto Signals Pro!",
-      rating: 4.5,
-    },
-    {
-      name: "Michael Brown",
-      feedback: "User-friendly and highly effective. My go-to platform for crypto trading.",
-      rating: 5,
-    },
-  ]);
 
   // Fetch live crypto market data
   useEffect(() => {
@@ -161,7 +139,6 @@ const CryptoSignalsPro = () => {
             <p className="text-center text-gray-400">Loading graph...</p>
           )}
         </div>
-      
       </section>
 
       {/* Dynamic Reviews Section */}
@@ -170,7 +147,23 @@ const CryptoSignalsPro = () => {
           What Our Clients Say 🌟
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
-          {reviews.map((review, index) => (
+          {[
+            {
+              name: "John Doe",
+              feedback: "Amazing platform! The signals are spot-on and helped me maximize my profits.",
+              rating: 5,
+            },
+            {
+              name: "Jane Smith",
+              feedback: "The AI insights are a game-changer. Highly recommend Crypto Signals Pro!",
+              rating: 4.5,
+            },
+            {
+              name: "Michael Brown",
+              feedback: "User-friendly and highly effective. My go-to platform for crypto trading.",
+              rating: 5,
+            },
+          ].map((review, index) => (
             <div
               key={index}
               className="bg-gray-900 p-8 rounded-xl text-center shadow-lg hover:scale-105 transform transition animate-slide-in"
@@ -255,8 +248,6 @@ const CryptoSignalsPro = () => {
           Join Telegram
         </a>
       </section>
-
-    
     </div>
   );
 };
