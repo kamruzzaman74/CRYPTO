@@ -92,7 +92,7 @@ const Community = () => {
             Limited-Time Offers
           </h3>
           <p className="text-lg mb-4 animate__animated animate__fadeIn animate__delay-21s">
-            Don't miss out on these exclusive offers! Act fast and maximize your potential.
+            Don&apos;t miss out on these exclusive offers! Act fast and maximize your potential.
           </p>
           <ul className="list-disc pl-8 text-lg space-y-4">
             <li className="animate__animated animate__fadeIn animate__delay-22s">Get 10% off your first trade when you join today</li>
@@ -113,3 +113,4 @@ const Community = () => {
 };
 
 export default Community;
+
