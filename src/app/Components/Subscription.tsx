@@ -89,11 +89,11 @@ const Subscription = () => {
         <div className="mt-8 text-center text-gray-800">
           <h3 className="text-xl font-semibold mb-4">Why Choose Us?</h3>
           <ul className="list-disc pl-6 space-y-2 text-gray-600">
-            <li>Expert Crypto Signals & Insights</li>
+            <li>Expert Crypto Signals &amp; Insights</li>
             <li>Real-time Alerts on Price Movements</li>
             <li>24/7 Customer Support</li>
-            <li>Exclusive Trading Tools & Resources</li>
-            <li>Access to VIP Webinars & Consultations</li>
+            <li>Exclusive Trading Tools &amp; Resources</li>
+            <li>Access to VIP Webinars &amp; Consultations</li>
           </ul>
         </div>
 
@@ -102,12 +102,16 @@ const Subscription = () => {
           <h3 className="text-2xl font-semibold text-center text-gray-800 mb-6">What Our Clients Say</h3>
           <div className="flex flex-wrap justify-center gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md w-full sm:w-80 transform hover:scale-105 transition-transform duration-300 ease-in-out">
-              <p className="text-lg text-gray-600 mb-4">"The signals are incredibly accurate! I’ve made a significant profit in just a few weeks!"</p>
+              <p className="text-lg text-gray-600 mb-4">
+                &quot;The signals are incredibly accurate! I’ve made a significant profit in just a few weeks!&quot;
+              </p>
               <p className="font-semibold text-gray-800">John D.</p>
               <p className="text-sm text-gray-500">Crypto Enthusiast</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md w-full sm:w-80 transform hover:scale-105 transition-transform duration-300 ease-in-out">
-              <p className="text-lg text-gray-600 mb-4">"I love the real-time alerts and the VIP support. Highly recommend this service!"</p>
+              <p className="text-lg text-gray-600 mb-4">
+                &quot;I love the real-time alerts and the VIP support. Highly recommend this service!&quot;
+              </p>
               <p className="font-semibold text-gray-800">Sarah L.</p>
               <p className="text-sm text-gray-500">Professional Trader</p>
             </div>
