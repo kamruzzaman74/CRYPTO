@@ -1,5 +1,7 @@
-'use client';
 
+
+'use client';
+import 'crip.css';
 import React from 'react';
 
 const Community = () => {
@@ -113,4 +115,3 @@ const Community = () => {
 };
 
 export default Community;
-
